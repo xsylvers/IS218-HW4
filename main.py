@@ -23,7 +23,7 @@ def perform_calculation(a, b, operation):
         return f"An unexpected error occurred: {e}"
 
 def main():
-    print("Welcome to the my calculator program!")
+    print("Welcome to my calculator program!")
     
     try:
         a = input("Enter the first number: ")
