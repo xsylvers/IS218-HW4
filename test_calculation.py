@@ -16,5 +16,5 @@ def perform_calculation(a, b, operation):
 
 @pytest.mark.parametrize("a, b, operation, expected_result", [])
 def test_dynamic_calculation(generate_test_data, a, b, operation, expected_result):
-    """This line of code test calculations using dynamically generated data."""
+    """This line of code test calculations using dynamic generated data."""
     assert perform_calculation(a, b, operation) == expected_result
